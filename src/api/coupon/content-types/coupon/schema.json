@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "coupons",
+  "info": {
+    "singularName": "coupon",
+    "pluralName": "coupons",
+    "displayName": "coupon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "code": {
+      "type": "uid"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "percentage",
+        "fixed",
+        "free_shipping"
+      ]
+    },
+    "value": {
+      "type": "biginteger"
+    },
+    "is_active": {
+      "type": "boolean"
+    },
+    "expires_at": {
+      "type": "date"
+    }
+  }
+}

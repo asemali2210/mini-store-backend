@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribers",
+  "info": {
+    "singularName": "subscriber",
+    "pluralName": "subscribers",
+    "displayName": "subscriber"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "userStatus": {
+      "type": "enumeration",
+      "enum": [
+        "active",
+        "unsubscribed"
+      ]
+    }
+  }
+}

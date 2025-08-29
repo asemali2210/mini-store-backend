@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "sale_homes",
+  "info": {
+    "singularName": "sale-home",
+    "pluralName": "sale-homes",
+    "displayName": "sale-home"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "leftImg": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "topHeading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "heading1": {
+      "type": "string"
+    },
+    "heading2": {
+      "type": "string"
+    }
+  }
+}
