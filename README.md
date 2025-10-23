@@ -1,5 +1,4 @@
 # 🚀 Getting started with Strapi
-
 Strapi comes with a 
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 npm run develop
