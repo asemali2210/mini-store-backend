@@ -3,7 +3,7 @@ Strapi comes with a
 Start your Strapi application with autoReload enabled. [Learn more](https://docs.strapi.io/dev-docs/cli#strapi-develop)
 npm run develop
 # or
-yarn develop
+yarn develo
 ```
 
 ### `start`
