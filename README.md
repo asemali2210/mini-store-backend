@@ -8,7 +8,6 @@ yarn develo
 ### `start`
 
 Start your Strapi application with autoReload disabled. [Learn more](https://dos.strapi.io/dev-docs/cli#strapi-start)
-
 ``
 npm run start
 # or
